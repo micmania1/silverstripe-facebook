@@ -1,0 +1,123 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+ * Import Theme */
+/**
+ * Default Theme colours
+**/
+/*
+ * facebook button */
+/*
+ * Import sprites */
+/*
+ * Sprite maps & Icons */
+/* line 42, btn-icon/*.png */
+.btn-icon-sprite, .ui-state-default .btn-icon-facebook, .ui-widget-content .btn-icon-facebook {
+  background: url('../images/btn-icon-sa5b1372fa9.png') no-repeat;
+}
+
+/* line 60, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-state-default .btn-icon-facebook, .ui-widget-content .btn-icon-facebook {
+  background-position: 0 0;
+}
+
+/*
+ * Import module components */
+/**
+ * Form styles for the CMS
+**/
+/* line 8, ../scss/_forms.scss */
+.cms .ss-ui-button.silverstripe-facebook-ui-action-facebook {
+  color: white;
+  background-color: #3b5998;
+  text-shadow: #37538d 0 -1px -1px;
+  border-color: #344e86;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4c70ba), color-stop(100%, #3b5998));
+  background: -webkit-linear-gradient(#4c70ba, #3b5998);
+  background: -moz-linear-gradient(#4c70ba, #3b5998);
+  background: -o-linear-gradient(#4c70ba, #3b5998);
+  background: linear-gradient(#4c70ba, #3b5998);
+}
+/* line 20, ../scss/_forms.scss */
+.cms .ss-ui-button.silverstripe-facebook-ui-action-facebook.ui-state-hover, .cms .ss-ui-button.silverstripe-facebook-ui-action-facebook:hover {
+  background-color: #4264aa;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3b5998), color-stop(100%, #2d4373));
+  background: -webkit-linear-gradient(#3b5998, #2d4373);
+  background: -moz-linear-gradient(#3b5998, #2d4373);
+  background: -o-linear-gradient(#3b5998, #2d4373);
+  background: linear-gradient(#3b5998, #2d4373);
+}
+/* line 30, ../scss/_forms.scss */
+.cms .ss-ui-button.silverstripe-facebook-ui-action-facebook:active, .cms .ss-ui-button.silverstripe-facebook-ui-action-facebook:focus, .cms .ss-ui-button.silverstripe-facebook-ui-action-facebook.ui-state-active, .cms .ss-ui-button.silverstripe-facebook-ui-action-facebook.ui-state-focus {
+  background-color: #385591;
+  -webkit-box-shadow: inset 0 1px 3px #17181a, 0 1px 0 rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: inset 0 1px 3px #17181a, 0 1px 0 rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 1px 3px #17181a, 0 1px 0 rgba(255, 255, 255, 0.6);
+}

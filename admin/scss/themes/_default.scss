@@ -1,0 +1,12 @@
+/**
+ * Default Theme colours
+**/
+
+
+$color-text-light: #ffffff !default;
+
+/*
+ * facebook button */
+$color-button-facebook: #3B5998 !default;
+$color-button-facebook-dark: darken($color-button-facebook, 5%) !default;
+$color-button-facebook-light: lighten($color-button-facebook, 5%) !default;

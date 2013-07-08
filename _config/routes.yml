@@ -1,0 +1,3 @@
+Director:
+  rules:
+    'facebook//$Action': 'FacebookController'

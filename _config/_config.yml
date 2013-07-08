@@ -1,0 +1,6 @@
+Member:
+  extensions:
+    0: FacebookUser
+
+Director:
+  environment: dev

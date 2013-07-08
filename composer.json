@@ -1,0 +1,5 @@
+{
+    "name": "micmania1/silverstripe-facebook",
+    "description": "A silverstripe module to integrate Silverstripe with Facebook",
+    "type": "silverstripe-module"
+}
