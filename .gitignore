@@ -1,0 +1,5 @@
+.nano_history
+.ssh/*
+.bash*
+.profile
+vendor/*
