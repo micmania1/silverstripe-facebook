@@ -82,16 +82,12 @@ class FacebookController extends ContentController {
 					if($member) {
 						return $this->redirect(Controller::join_links("facebook", "login"));
 					} else {
+						$member = new Member();
 						$access_token = Session::get("fb_" . $facebookApp->FacebookConsumerKey . "_access_token");
 						$valid = $member->connectFacebookAccount($user_profile, $access_token);
 						if($valid->valid()) {
-							if($isNew) {
-								$form->sessionMessage("You have signed up with Facebook.", "good");
-								$this->extend("onAfterFacebookSignup", $member);
-							} else {
-								$form->sessionMessage("You have connected your Facebook account.", "good");
-								$this->extend("onAfterFacebookConnect", $member);
-							}
+							$form->sessionMessage("You have signed up with Facebook.", "good");
+							$this->extend("onAfterFacebookSignup", $member);
 						} else {
 							$form->sessionMessage($valid->message(), "bad");
 						}
